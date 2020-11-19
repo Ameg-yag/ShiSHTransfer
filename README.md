@@ -16,7 +16,6 @@
 - One high-trust Telegram account where all file get sent to recover them in case of a ban
 ## Installation
 - run `composer install`
-- Edit the hardcoded mysql config in ShishcatUploader/index.php
 - Put the 2 high trust accounts in session folder and compile 
 - Install sf_systemctl and sfa_systemctl as service
 - Configure config.json
