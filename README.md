@@ -23,3 +23,5 @@
 - Start the systemctl services (for sfa we advice to use php systemctl_list.php start | bash && php systemctl_list.php enable | bash)
 ### Contact me: @shishcat on Telegram or make an issue for support
 I decided to opensourcify and kill my instance of this project because I didn't want to get any trouble with Telegram.
+
+The files that you can find in the root are an HTTP server for accessing/uploading telegram files, ShishcatUploader contains the file splitting logic, the site and the api, it connects internally to the HTTP server to download/upload.
